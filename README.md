@@ -5,7 +5,8 @@ Repository containing the Python3 code for a parser of the TIMP language, genera
 To generate the parser you need to run the following command
 
 `
-cd grammar
+cd grammar`
+`
 antlr -Dlanguage=Python3 -visitor IMP.g4 -o ../src/IMPUtils
 `
 
