@@ -1,0 +1,13 @@
+int i;
+logical cond;
+cond = true;
+i = 0;
+while (cond) {
+	i = i + 1;
+    if (i > 7) {
+        cond = false;
+    }
+    else { 
+        cond = true;
+    }
+}
